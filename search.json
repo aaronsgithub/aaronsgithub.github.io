@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "articles/example.html",
+    "href": "articles/example.html",
+    "title": "Example",
+    "section": "",
+    "text": "This is my article."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Aaron's Blog",
+    "section": "",
+    "text": "2023-08-20 Example\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html#writing.",
+    "href": "index.html#writing.",
+    "title": "Aaron's Blog",
+    "section": "",
+    "text": "2023-08-20 Example\n\n\n\nNo matching items"
+  }
+]

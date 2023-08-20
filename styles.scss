@@ -1,0 +1,54 @@
+h2 {
+    border-bottom: none;
+}
+
+.navbar .navbar-brand-container {
+    order: 0;
+}
+.navbar .navbar-brand-container.mx-auto {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+
+.navbar-title {
+    font-weight: bold;
+}
+
+.quarto-listing-table td:first-child, .quarto-listing-table th:first-child {
+    white-space: nowrap;
+    width: 1%;
+}
+
+.a-listing {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.a-listing .date {
+    margin-right: 1rem;
+}
+
+.a-listing li {
+    margin-bottom: 0.8rem;
+}
+
+.a-listing a {
+    text-decoration: none;
+}
+
+.navbar-brand-container {
+    margin: 0;
+}
+
+.navbar-title:hover {
+    text-decoration: none;
+}
+
+.nav-link {
+    color: $nav-link-color;
+}
+
+.nav-link.active {
+    color: $nav-link-active-color;
+}
