@@ -15,6 +15,9 @@ listing:
     sort: "date desc"
     template: assets/js/listing.ejs
     type: table
+format:
+  html:
+    anchor-sections: false
 
 page-layout: full
 title-block-banner: true
