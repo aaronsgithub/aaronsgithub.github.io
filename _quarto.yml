@@ -5,7 +5,6 @@ website:
   title: "Aaron's Blog"
   search: false
   navbar:
-    # title: false
     background: "#fff"
     collapse: false 
     left:
@@ -19,9 +18,9 @@ format:
       - cosmo
       - theme.scss
     css: styles.scss
-    # grid:
-      # body-width: 1000px;
-    
+
+execute:
+  freeze: auto
 
 
 
