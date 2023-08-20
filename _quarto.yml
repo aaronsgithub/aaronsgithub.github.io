@@ -17,7 +17,7 @@ format:
     theme: 
       - cosmo
       - theme.scss
-    css: styles.scss
+    css: styles.css
 
 execute:
   freeze: auto
