@@ -1,14 +1,28 @@
 ---
-title: "."
+# title: "Welcome"
 listing:
-  contents: posts
-  sort: "date desc"
-  type: default
-  categories: true
-  sort-ui: false
-  filter-ui: false
+  - id: articles
+    contents: 
+      - articles
+      - "articles/*.ipynb"
+    categories: false
+    filter-ui: false
+    sort-ui: false
+    date-format: YYYY-MM-DD
+    fields:
+      - date
+      - title
+    sort: "date desc"
+    template: assets/js/listing.ejs
+    type: table
+
 page-layout: full
 title-block-banner: true
 ---
+
+## Writing.
+
+:::{#articles}
+:::
 
 

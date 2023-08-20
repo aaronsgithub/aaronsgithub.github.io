@@ -2,18 +2,26 @@ project:
   type: website
 
 website:
-  title: "."
+  title: "Aaron's Blog"
+  search: false
   navbar:
-    right:
-      - about.qmd
-      - icon: github
-        href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com
+    # title: false
+    background: "#fff"
+    collapse: false 
+    left:
+      - href: index.qmd
+        icon: house-door-fill
+        text: " "
+
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme: 
+      - cosmo
+      - theme.scss
+    css: styles.scss
+    # grid:
+      # body-width: 1000px;
+    
 
 
 
